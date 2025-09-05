@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 21 mai 2015 04:06:49 by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="entity.Produit" table="Produit">
+    
+    	<id name="reference"></id>
+    	<property name="libellé"></property>
+        <property name="prix"></property>
+    </class>
+</hibernate-mapping>

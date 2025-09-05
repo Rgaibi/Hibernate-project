@@ -8,7 +8,7 @@ public class HibernateDemo {
 
 	public static void main(String[] args) {
 		
-		Session session = HibernateUtil.getSessionFactory().getCurrentSession();
+		Session session = HibernateUtil.getSessionFactory().openSession();
 		System.out.println("Mysql connected");
 		
 
